@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		21A9FAC31EB5FB6900EBCC03 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A9FAC21EB5FB6900EBCC03 /* SignInVC.swift */; };
 		21A9FAC51EB5FD2500EBCC03 /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A9FAC41EB5FD2500EBCC03 /* ContactsVC.swift */; };
+		21AB707E1EB6238900A1F770 /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AB707D1EB6238900A1F770 /* AuthProvider.swift */; };
 		21FBF8431EB5D77F00DF95DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FBF8421EB5D77F00DF95DF /* AppDelegate.swift */; };
 		21FBF8451EB5D77F00DF95DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FBF8441EB5D77F00DF95DF /* ViewController.swift */; };
 		21FBF8481EB5D77F00DF95DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FBF8461EB5D77F00DF95DF /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		11FB9A8F56ABEA28FD0F8C0B /* Pods-FireTweety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireTweety.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireTweety/Pods-FireTweety.release.xcconfig"; sourceTree = "<group>"; };
 		21A9FAC21EB5FB6900EBCC03 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		21A9FAC41EB5FD2500EBCC03 /* ContactsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
+		21AB707D1EB6238900A1F770 /* AuthProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
 		21FBF83F1EB5D77F00DF95DF /* FireTweety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireTweety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FBF8421EB5D77F00DF95DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21FBF8441EB5D77F00DF95DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		21A9FAC11EB5FB3900EBCC03 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				21AB707D1EB6238900A1F770 /* AuthProvider.swift */,
 			);
 			name = Plugins;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			files = (
 				21FBF8451EB5D77F00DF95DF /* ViewController.swift in Sources */,
 				21FBF8431EB5D77F00DF95DF /* AppDelegate.swift in Sources */,
+				21AB707E1EB6238900A1F770 /* AuthProvider.swift in Sources */,
 				21A9FAC31EB5FB6900EBCC03 /* SignInVC.swift in Sources */,
 				21A9FAC51EB5FD2500EBCC03 /* ContactsVC.swift in Sources */,
 			);

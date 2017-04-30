@@ -8,6 +8,11 @@ target 'FireTweety' do
   # Pods for FireTweety
 
 pod 'Firebase/Core'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
 pod 'Firebase/Auth'
+pod 'JSQMessagesViewController'
+pod 'SDWebImage'
+
 
 end
