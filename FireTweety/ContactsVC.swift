@@ -1,5 +1,5 @@
 //
-//  SignInVC.swift
+//  ContactsVC.swift
 //  FireTweety
 //
 //  Created by Ivan Cernja on 30/04/2017.
@@ -8,17 +8,12 @@
 
 import UIKit
 
-class SignInVC: UIViewController {
-    
-    @IBOutlet weak var emailTextField: UITextField!
-    
-    @IBOutlet weak var passwordTextField: UITextField!
+class ContactsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
-    
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,14 +21,10 @@ class SignInVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func signIn(_ sender: Any) {
-        performSegue(withIdentifier: "ContactsSegue", sender: nil)
+
+    @IBAction func logout(_ sender: Any) {
     }
 
-    @IBAction func signUp(_ sender: Any) {
-    }
- 
-    
 }
 
 // class
